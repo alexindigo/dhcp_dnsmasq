@@ -1,0 +1,3 @@
+[submodule "webconf"]
+	path = webconf
+	url = git@github.com:alexindigo/dnsmasq-webconf.git
