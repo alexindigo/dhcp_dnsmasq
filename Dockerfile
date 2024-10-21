@@ -11,7 +11,7 @@ EXPOSE 80/tcp
 # Install dnsmasq
 RUN apk update
 RUN apk upgrade
-RUN apk --no-cache add dnsmasq python3 py3-bottle py3-jinja2
+RUN apk --no-cache add tzdata dnsmasq python3 py3-bottle py3-jinja2
 
 COPY webconf/app /app
 
